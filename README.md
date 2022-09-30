@@ -1,0 +1,2 @@
+# flatpak-auto-update
+ 
