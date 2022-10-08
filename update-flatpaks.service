@@ -5,7 +5,7 @@ Wants=network-online.target
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/flatpak update -y
+ExecStart=dbus-run-session flatpak update -y
 
 [Install]
 WantedBy=multi-user.target
